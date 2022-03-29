@@ -1,0 +1,142 @@
+/*--header---*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25lYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.navbar .navbar-nav .nav-item a{
+    color: white;
+    font-size: 2em;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 28px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: gray;
+}
+.navbar-logo-centered .navbar-nav .nav-link{
+    padding: .5em 5em;
+}
+#logo{
+    font-weight: 500;
+    font-size: 70px;
+    text-decoration: none;
+    
+}
+.header-content{
+	color: white;
+	width: 40%;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	text-align: center;
+}
+
+.header-content h1{
+	font-size: 80px;
+    color: white;
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.header-content p{
+	color: white;
+	font-size: 16px;
+}
+
+.shop-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 10px 20px;
+	font-size: 18px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.shop-btn:hover{
+	background: grey;
+	transition: 1s;
+}
+
+.buttons{
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*----features---*/
+.features{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+    
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 200;
+    color: black;
+}
+
+p{
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.feature-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+
+}
+
+.row h3{
+	text-align: center;
+	font-size: 1.1em;
+	margin: 50px 0;
+    
+}
+#extra{
+	margin-top: 40%;
+}
+.feature-col:hover{
+	box-shadow: 0 0 11px darkblue;
+	cursor: pointer;
+}
+footer{
+    margin-top: 8%;
+}
+footer a{
+	text-decoration: none;
+}
+.newsletter{
+    text-align: center;
+    margin-top: 5%;
+	left: 30%;
+}
